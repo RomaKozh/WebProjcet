@@ -2,7 +2,7 @@
 
 set -eu
 
-export PYTHONBUFFERED=true
+export PYTHONUNBUFFERED=true
 
 VIRTUALENV=./venv
 
